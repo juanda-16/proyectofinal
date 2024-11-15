@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Parqueaderos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encuentra Parqueaderos Cercanos</h1>
+        <input type="text" id="ubicacion" placeholder="Ingresa una dirección o coordenadas (lat,lng)">
+        <button id="buscar">Buscar Parqueaderos</button>
+        <div id="resultados"></div> <!-- Aquí se mostrarán los resultados -->
+        <div id="map" style="height: 400px; margin-top: 20px;"></div> <!-- Contenedor para el mapa -->
+    </div>
+
+    <!-- Incluye la API de Google Maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLzE5FFTM-Vp-v_fC8nviMtYt57RfIGuM&libraries=places"></script>
+    <script src="script.js"></script>
+</body>
+</html>

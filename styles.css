@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo gris claro */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white; /* Fondo blanco para el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Color del texto */
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007BFF; /* Color azul */
+    color: white; /* Texto blanco */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+#resultados {
+    margin-top: 20px;
+}
+
+.parqueadero {
+    border: 1px solid #ccc; /* Borde gris claro */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #e9ecef; /* Fondo gris claro para los resultados */
+}
